@@ -1,0 +1,11 @@
+**Key Takeaways:**
+
+1. AWS services are managed through a customer-owned AWS account.
+2. Account linking enables VMware to cross-link SDDCs into a customer-owned AWS account.
+3. Account linking is performed when the user executes a CloudFormation template within their AWS account.
+4. The CloudFormation template creates roles which enable VMware to manage SDDC cross-linking.
+5. The hosts within the SDDC are connected to the customer-owned VPC via cross-account ENIs.
+
+
+***Reference***
+[vmc.techzone.vmware.com](https://vmc.techzone.vmware.com/vmc-arch/docs/introduction/vmc-aws-a-technical-overview#sec377-sub6)
