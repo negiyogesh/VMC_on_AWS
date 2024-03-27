@@ -1,0 +1,55 @@
+VMC on AWS vs Native cloud (VM to Ec2) migration:
+Choosing the right approach for migrating your virtual machines (VMs) to the AWS cloud depends on your specific needs and priorities. Here's a breakdown comparing VMC on AWS and VM to EC2 migration:
+
+VMware Cloud on AWS (VMC)
+Advantages: 
+    1. Re-architecture: No conversions or re-architecture of workloads are required when moving to the cloud.
+    2. Skillset: Organizations with existing VMware infrastructure find it easier to adopt VMC on AWS due to its compatibility with VMware technologies.
+    3. Seamless Migration: Minimizes downtime with capabilities like vMotion for live migration.
+    4. Hybrid Cloud: Enables easy workload portability between on-premises and AWS environments.
+    5. Security: Leverages built-in security features of VMware and AWS.
+    6. VMware Cloud on AWS also enables customers to modernize their applications in a stepwise fashion – customers can migrate their applications to VMware Cloud on AWS first, and modernize individual components as time and budget allow.
+Considerations: 
+    1. Cost: May be more expensive than native EC2 instances due to the additional layer of VMware management.
+    2. Management Complexity: Requires managing both VMware and AWS environments.
+    3. Limited Customization: Less granular control over individual VM configurations compared to EC2.
+
+VM to EC2 Migration: 
+Advantages:
+    1. Cost-Effective: Potentially lower costs due to reduced licensing costs, simplified infrastructure, flexible pricing models, resource optimization, elasticity, and opportunities for AWS discounts
+    2. Scalability: Offers fine-grained control over individual VM resources.
+    3. Customization: Organizations are not tied to VMware technologies and can leverage native AWS services.
+Considerations:
+    1. Complexity: Requires potentially complex VM conversion and configuration adjustments.
+    2. Re-architecture: Some applications may need to be re-architected or optimized for cloud environments, which could add complexity and cost.
+    3. Downtime: Migration typically involves VM shutdowns, leading to downtime.
+    4. Management: Requires learning and adopting new AWS management tools.
+    5. Limited Hybrid Cloud Support: Workloads become more tightly coupled to the AWS environment.
+
+=================================================================
+
+Choosing between VMware Cloud on AWS and native public cloud services:
+
+Here are some key factors to consider when deciding between VMC and VM to EC2 migration:
+1. Existing Workload:  If you have a heavily invested VMware environment, VMC offers a smoother transition.
+2. Migration Complexity: if want to migrate VM's workload on aws without refactoring or re-architecting applications, and with minimul downtime VMC could be the first option. 
+3. Skillset: If team is comfortable with VMware, VMC minimizes retraining needs.
+4. Cost Considerations: Evaluate your budget and resource utilization for cost-efficiency between VMC and EC2.
+5. Hybrid Cloud Strategy: VMC provides a more seamless hybrid cloud experience.
+6. Flexibility: With VMC on AWS, workload not coupled with native cloud service and we can migrate it to other cloud or on-premise in shorter time.
+
+In Conclusion: 
+
+There's no one-size-fits-all answer. VMC offers a familiar and integrated approach for migrating complex VMware environments, while VM to EC2 provides greater cost flexibility and granular control.
+
+
+
+Key Feature of AWS VMC:
+1. AWS Physical Infrastructure: No dealing with power, cooling and physical security, cross-connect.
+2. VMware Lifecycle Management: Patching of Esxi, vCenter, NSX, vSan. Provising/deprovisining managed by Vmware
+3. Workload Flexibility: Seamless move workload between on-site and Vmware Cloud.
+4. Elasticity: Scale vSphere cluster up or down based on business demand
+5. Cost: Benefit from the pay-as-you-go model of AWS, optimizing your IT expenses.
+6. Expand Globally: Deploy new Datacenters through Consoles/APIs, No need to provision or install esxi.
+7. AWS Services: Leverage or integrate with AWS services with low latency and high security
+
