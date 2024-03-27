@@ -1,0 +1,11 @@
+**Scenario #1: “Lifting and shifting” existing workloads to the cloud**
+VMware Cloud on AWS is ideal for this use case if 
+   >> Bi-directional and non-disruptive application migration
+   >> No conversions or re-architecture of workloads are required when moving to the cloud
+   >> Difference in compatibility
+   >> Difference in licensing
+
+**Scenario #2: Modernization of existing applications**
+>> VMware Cloud on AWS also enables customers to modernize their applications in astepwise fashion – customers can migrate their applications to VMware Cloud on AWS first, and modernize individual components as time and budget allow.
+
+

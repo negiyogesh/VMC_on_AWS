@@ -10,4 +10,11 @@
 
 5. NXS:
 
+6. HCX: ***Hybrid Cloud Extension***  https://medium.com/google-cloud/hcx-hybrid-cloud-extension-explained-991eb444572b
+HCX supports four different migration types:
+   1. Cold Migration — offline
+   2. vMotion (live) — no downtime
+   3. Bulk Migration — low downtime
+   4. Cloud Motion with vSphere Replication — no downtime
 
+7. 
